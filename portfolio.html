@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bryony Nicholas - Portfolio</title>
+    <meta name="description" content="Web portfolio by Bryony Nicholas: 4 class projects with screenshots, short descriptions, and links to view each site.">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>My Web Projects</h1>
+        <nav>
+            <a href="index.html" class="nav-btn">Home</a>
+            <a href="portfolio.html" class="nav-btn">Portfolio</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="project readable">
+            <h2>Resume Website</h2>
+            <figure>
+                <img src="screenshot1.png" alt="Screenshot of my Resume Website">
+                <figcaption>Screenshot &copy; Bryony Nicholas (course project)</figcaption>
+            </figure>
+            <p>This project is a personal resume site showcasing my skills, education, and work experience. I designed it to be clean, professional, and easy to navigate.</p>
+            <a href="project1/index.html" class="view-btn">View Project</a>
+        </section>
+
+        <section class="project readable">
+    <h2>Recipes Website</h2>
+    <figure>
+        <img src="screenshot2.png" alt="Screenshot of my recipe page showing Classic Spaghetti Carbonara">
+        <figcaption>Screenshot &copy; Bryony Nicholas (course project)</figcaption>
+    </figure>
+    <p>This recipe page was built using semantic HTML and styled with CSS for clarity and easy reading.  
+       It features step-by-step instructions and clean formatting for a better cooking experience.</p>
+    <a href="project2/index.html" class="view-btn">View Project</a>
+</section>
+
+        <section class="project readable">
+    <h2>Travel Website</h2>
+    <figure>
+        <img src="screenshot3.png" alt="Screenshot of my Bangkok city webpage showing temples and sunset">
+        <figcaption>Screenshot &copy; Bryony Nicholas (course project)</figcaption>
+    </figure>
+    <p>This webpage showcases my hometown, Bangkok, Thailand, highlighting its cultural landmarks, street food, markets, and nightlife.  
+       I used semantic HTML and CSS to create a clean and readable layout, making it engaging and easy to navigate.</p>
+    <a href="project3/index.html" class="view-btn">View Project</a>
+</section>
+
+    <section class="project readable">
+    <h2>E-book Website</h2>
+    <figure>
+        <img src="screenshot4.png" alt="Screenshot of Alice's Adventures in Wonderland project">
+        <figcaption>Screenshot &copy; Bryony Nicholas (course project)</figcaption>
+    </figure>
+    <p>
+        This project presents an excerpt from Lewis Carroll’s classic novel, 
+        <em>Alice’s Adventures in Wonderland</em>. It includes text and illustrations 
+        in a clean, readable layout using semantic HTML and CSS styling.
+    </p>
+    <a href="project4/index.html" class="view-btn">View Project</a>
+</section>
+    </main>
+
+    <footer>
+        <p>&copy; <span id="year"></span> Bryony Nicholas • Bellevue, WA</p>
+        <script>document.getElementById('year').textContent = new Date().getFullYear();</script>
+    </footer>
+</body>
+</html>
